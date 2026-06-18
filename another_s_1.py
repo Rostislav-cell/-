@@ -126,12 +126,12 @@ class RadiationModule:
                 }
             },
             "органы грудной клетки": {
-                "target": "грудная_клетка",
+                "target": "грудная клетка",
                 "organs": {
-                    "грудная_клетка": {"scatter_factor": 1.0, "relative_sensitivity": 0.8,
+                    "грудная клетка": {"scatter_factor": 1.0, "relative_sensitivity": 0.8,
                                        "category": "органы грудной клетки"},
                     "ребра": {"scatter_factor": 0.60, "relative_sensitivity": 0.6, "category": "органы грудной клетки"},
-                    "грудинная_кость": {"scatter_factor": 0.25, "relative_sensitivity": 0.7,
+                    "грудинная кость": {"scatter_factor": 0.25, "relative_sensitivity": 0.7,
                                         "category": "органы грудной клетки"},
                 }
             },
@@ -139,9 +139,9 @@ class RadiationModule:
                 "target": "таз",
                 "organs": {
                     "таз": {"scatter_factor": 1.0, "relative_sensitivity": 0.9, "category": "органы малого таза"},
-                    "крестцовая_кость": {"scatter_factor": 0.45, "relative_sensitivity": 0.7,
+                    "крестцовая кость": {"scatter_factor": 0.45, "relative_sensitivity": 0.7,
                                          "category": "органы малого таза"},
-                    "тазобедренные_суставы": {"scatter_factor": 0.35, "relative_sensitivity": 0.8,
+                    "тазобедренные суставы": {"scatter_factor": 0.35, "relative_sensitivity": 0.8,
                                               "category": "органы малого таза"},
                 }
             },
@@ -150,8 +150,8 @@ class RadiationModule:
                 "organs": {
                     "коленный сустав": {"scatter_factor": 1.0, "relative_sensitivity": 0.7,
                                         "category": "коленные суставы"},
-                    "мениск": {"scatter_factor": 0.50, "relative_sensitivity": 0.6, "category": "коленные_суставы"},
-                    "связки_колена": {"scatter_factor": 0.40, "relative_sensitivity": 0.6,
+                    "мениск": {"scatter_factor": 0.50, "relative_sensitivity": 0.6, "category": "коленные суставы"},
+                    "связки колена": {"scatter_factor": 0.40, "relative_sensitivity": 0.6,
                                       "category": "коленные суставы"},
                 }
             },
@@ -159,7 +159,7 @@ class RadiationModule:
                 "target": "стопа",
                 "organs": {
                     "стопа": {"scatter_factor": 1.0, "relative_sensitivity": 0.6, "category": "стопы"},
-                    "плюсневые_кости": {"scatter_factor": 0.55, "relative_sensitivity": 0.6, "category": "стопы"},
+                    "плюсневые кости": {"scatter_factor": 0.55, "relative_sensitivity": 0.6, "category": "стопы"},
                     "пятка": {"scatter_factor": 0.45, "relative_sensitivity": 0.6, "category": "стопы"},
                 }
             }
